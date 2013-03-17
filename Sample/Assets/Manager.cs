@@ -9,6 +9,7 @@ public class Manager : MonoBehaviour {
 	void Start () {
 		//広告を初期化する
 		//Binding.initNEND();
+		//Print("test");
 	}
 	
 	void Update() {
