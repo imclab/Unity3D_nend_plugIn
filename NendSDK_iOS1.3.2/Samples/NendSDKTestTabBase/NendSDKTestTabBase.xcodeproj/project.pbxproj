@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23776E1613DD7773001DBF5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23776E1513DD7773001DBF5E /* UIKit.framework */; };
+		23776E1813DD7773001DBF5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23776E1713DD7773001DBF5E /* Foundation.framework */; };
+		23776E1A13DD7773001DBF5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23776E1913DD7773001DBF5E /* CoreGraphics.framework */; };
+		23776E2013DD7774001DBF5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23776E1E13DD7774001DBF5E /* InfoPlist.strings */; };
+		23776E2313DD7774001DBF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23776E2213DD7774001DBF5E /* main.m */; };
+		23776E2613DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23776E2513DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.m */; };
+		23776E2913DD7774001DBF5E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23776E2713DD7774001DBF5E /* MainWindow.xib */; };
+		23776E2C13DD7774001DBF5E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23776E2B13DD7774001DBF5E /* FirstViewController.m */; };
+		23776E2F13DD7774001DBF5E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23776E2E13DD7774001DBF5E /* SecondViewController.m */; };
+		23776E3213DD7774001DBF5E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23776E3013DD7774001DBF5E /* FirstView.xib */; };
+		23776E3513DD7774001DBF5E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23776E3313DD7774001DBF5E /* SecondView.xib */; };
+		3E72A56A160ADFB900FE5220 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72A569160ADFB900FE5220 /* Default-568h@2x.png */; };
+		C324F6C71519D53B00E6E216 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C324F6C61519D53B00E6E216 /* Security.framework */; };
+		CEA5C84C1590200C009836FE /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA5C84A1590200C009836FE /* libNendAd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23776E1113DD7773001DBF5E /* NendSDKTestTabBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendSDKTestTabBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23776E1513DD7773001DBF5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23776E1713DD7773001DBF5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23776E1913DD7773001DBF5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23776E1D13DD7773001DBF5E /* NendSDKTestTabBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NendSDKTestTabBase-Info.plist"; sourceTree = "<group>"; };
+		23776E1F13DD7774001DBF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23776E2113DD7774001DBF5E /* NendSDKTestTabBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NendSDKTestTabBase-Prefix.pch"; sourceTree = "<group>"; };
+		23776E2213DD7774001DBF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23776E2413DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendSDKTestTabBaseAppDelegate.h; sourceTree = "<group>"; };
+		23776E2513DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NendSDKTestTabBaseAppDelegate.m; sourceTree = "<group>"; };
+		23776E2813DD7774001DBF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		23776E2A13DD7774001DBF5E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		23776E2B13DD7774001DBF5E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		23776E2D13DD7774001DBF5E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		23776E2E13DD7774001DBF5E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		23776E3113DD7774001DBF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		23776E3413DD7774001DBF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		3E72A569160ADFB900FE5220 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C324F6C61519D53B00E6E216 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEA5C84A1590200C009836FE /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		CEA5C84B1590200C009836FE /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23776E0E13DD7773001DBF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C324F6C71519D53B00E6E216 /* Security.framework in Frameworks */,
+				23776E1613DD7773001DBF5E /* UIKit.framework in Frameworks */,
+				23776E1813DD7773001DBF5E /* Foundation.framework in Frameworks */,
+				23776E1A13DD7773001DBF5E /* CoreGraphics.framework in Frameworks */,
+				CEA5C84C1590200C009836FE /* libNendAd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23776E0613DD7773001DBF5E = {
+			isa = PBXGroup;
+			children = (
+				3E72A569160ADFB900FE5220 /* Default-568h@2x.png */,
+				CEA5C8491590200C009836FE /* NendAd */,
+				C324F6C61519D53B00E6E216 /* Security.framework */,
+				23776E1B13DD7773001DBF5E /* NendSDKTestTabBase */,
+				23776E1413DD7773001DBF5E /* Frameworks */,
+				23776E1213DD7773001DBF5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23776E1213DD7773001DBF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23776E1113DD7773001DBF5E /* NendSDKTestTabBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23776E1413DD7773001DBF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23776E1513DD7773001DBF5E /* UIKit.framework */,
+				23776E1713DD7773001DBF5E /* Foundation.framework */,
+				23776E1913DD7773001DBF5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23776E1B13DD7773001DBF5E /* NendSDKTestTabBase */ = {
+			isa = PBXGroup;
+			children = (
+				23776E2413DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.h */,
+				23776E2513DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.m */,
+				23776E2713DD7774001DBF5E /* MainWindow.xib */,
+				23776E2A13DD7774001DBF5E /* FirstViewController.h */,
+				23776E2B13DD7774001DBF5E /* FirstViewController.m */,
+				23776E2D13DD7774001DBF5E /* SecondViewController.h */,
+				23776E2E13DD7774001DBF5E /* SecondViewController.m */,
+				23776E3013DD7774001DBF5E /* FirstView.xib */,
+				23776E3313DD7774001DBF5E /* SecondView.xib */,
+				23776E1C13DD7773001DBF5E /* Supporting Files */,
+			);
+			path = NendSDKTestTabBase;
+			sourceTree = "<group>";
+		};
+		23776E1C13DD7773001DBF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23776E1D13DD7773001DBF5E /* NendSDKTestTabBase-Info.plist */,
+				23776E1E13DD7774001DBF5E /* InfoPlist.strings */,
+				23776E2113DD7774001DBF5E /* NendSDKTestTabBase-Prefix.pch */,
+				23776E2213DD7774001DBF5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA5C8491590200C009836FE /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C84A1590200C009836FE /* libNendAd.a */,
+				CEA5C84B1590200C009836FE /* NADView.h */,
+			);
+			name = NendAd;
+			path = ../../NendAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23776E1013DD7773001DBF5E /* NendSDKTestTabBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23776E3813DD7774001DBF5E /* Build configuration list for PBXNativeTarget "NendSDKTestTabBase" */;
+			buildPhases = (
+				23776E0D13DD7773001DBF5E /* Sources */,
+				23776E0E13DD7773001DBF5E /* Frameworks */,
+				23776E0F13DD7773001DBF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NendSDKTestTabBase;
+			productName = NendSDKTestTabBase;
+			productReference = 23776E1113DD7773001DBF5E /* NendSDKTestTabBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23776E0813DD7773001DBF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 23776E0B13DD7773001DBF5E /* Build configuration list for PBXProject "NendSDKTestTabBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23776E0613DD7773001DBF5E;
+			productRefGroup = 23776E1213DD7773001DBF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23776E1013DD7773001DBF5E /* NendSDKTestTabBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23776E0F13DD7773001DBF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23776E2013DD7774001DBF5E /* InfoPlist.strings in Resources */,
+				23776E2913DD7774001DBF5E /* MainWindow.xib in Resources */,
+				23776E3213DD7774001DBF5E /* FirstView.xib in Resources */,
+				23776E3513DD7774001DBF5E /* SecondView.xib in Resources */,
+				3E72A56A160ADFB900FE5220 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23776E0D13DD7773001DBF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23776E2313DD7774001DBF5E /* main.m in Sources */,
+				23776E2613DD7774001DBF5E /* NendSDKTestTabBaseAppDelegate.m in Sources */,
+				23776E2C13DD7774001DBF5E /* FirstViewController.m in Sources */,
+				23776E2F13DD7774001DBF5E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23776E1E13DD7774001DBF5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23776E1F13DD7774001DBF5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23776E2713DD7774001DBF5E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23776E2813DD7774001DBF5E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		23776E3013DD7774001DBF5E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23776E3113DD7774001DBF5E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		23776E3313DD7774001DBF5E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23776E3413DD7774001DBF5E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23776E3613DD7774001DBF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = "";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		23776E3713DD7774001DBF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		23776E3913DD7774001DBF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendSDKTestTabBase/NendSDKTestTabBase-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NendSDKTestTabBase/NendSDKTestTabBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../NendAd\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23776E3A13DD7774001DBF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendSDKTestTabBase/NendSDKTestTabBase-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NendSDKTestTabBase/NendSDKTestTabBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../NendAd\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23776E0B13DD7773001DBF5E /* Build configuration list for PBXProject "NendSDKTestTabBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23776E3613DD7774001DBF5E /* Debug */,
+				23776E3713DD7774001DBF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23776E3813DD7774001DBF5E /* Build configuration list for PBXNativeTarget "NendSDKTestTabBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23776E3913DD7774001DBF5E /* Debug */,
+				23776E3A13DD7774001DBF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23776E0813DD7773001DBF5E /* Project object */;
+}

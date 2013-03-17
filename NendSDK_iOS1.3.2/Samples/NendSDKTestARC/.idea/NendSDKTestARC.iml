@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../NendAd/NADView.h">
+      <sourceFolder url="file://$MODULE_DIR$/../../NendAd/NADView.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../NendAd/NADView.h">
+      <sourceFolder url="file://$MODULE_DIR$/../NendAd/NADView.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/NendSDKTestARC-c14722bd/Build/Products/Debug-iphoneos/NendSDKTestARC.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/NendSDKTestARC-c14722bd/Build/Products/Debug-iphoneos/NendSDKTestARC.app" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/NendSDKTestARC-c4a47f/Build/Products/Debug-iphonesimulator/NendSDKTestARC.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/NendSDKTestARC-c4a47f/Build/Products/Debug-iphonesimulator/NendSDKTestARC.app" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

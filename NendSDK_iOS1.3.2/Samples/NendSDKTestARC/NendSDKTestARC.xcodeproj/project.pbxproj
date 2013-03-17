@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E72A562160ADF1A00FE5220 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72A561160ADF1A00FE5220 /* Default-568h@2x.png */; };
+		CE3465D2158040EA00F5E679 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3465D1158040EA00F5E679 /* UIKit.framework */; };
+		CE3465D4158040EA00F5E679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3465D3158040EA00F5E679 /* Foundation.framework */; };
+		CE3465D6158040EA00F5E679 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3465D5158040EA00F5E679 /* CoreGraphics.framework */; };
+		CE3465DC158040EA00F5E679 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3465DA158040EA00F5E679 /* InfoPlist.strings */; };
+		CE3465DE158040EA00F5E679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3465DD158040EA00F5E679 /* main.m */; };
+		CE3465E2158040EA00F5E679 /* NendSDKTestARCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3465E1158040EA00F5E679 /* NendSDKTestARCAppDelegate.m */; };
+		CE3465E5158040EA00F5E679 /* NendSDKTestARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3465E4158040EA00F5E679 /* NendSDKTestARCViewController.m */; };
+		CE3465E8158040EA00F5E679 /* NendSDKTestARCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3465E6158040EA00F5E679 /* NendSDKTestARCViewController.xib */; };
+		CE3465FA1580544300F5E679 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3465F91580544300F5E679 /* Security.framework */; };
+		CE92C6401590709A0091F946 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA5C857159020FB009836FE /* libNendAd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E72A561160ADF1A00FE5220 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE3465CD158040EA00F5E679 /* NendSDKTestARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendSDKTestARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3465D1158040EA00F5E679 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3465D3158040EA00F5E679 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3465D5158040EA00F5E679 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3465D9158040EA00F5E679 /* NendSDKTestARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NendSDKTestARC-Info.plist"; sourceTree = "<group>"; };
+		CE3465DB158040EA00F5E679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3465DD158040EA00F5E679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3465DF158040EA00F5E679 /* NendSDKTestARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NendSDKTestARC-Prefix.pch"; sourceTree = "<group>"; };
+		CE3465E0158040EA00F5E679 /* NendSDKTestARCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendSDKTestARCAppDelegate.h; sourceTree = "<group>"; };
+		CE3465E1158040EA00F5E679 /* NendSDKTestARCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NendSDKTestARCAppDelegate.m; sourceTree = "<group>"; };
+		CE3465E3158040EA00F5E679 /* NendSDKTestARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendSDKTestARCViewController.h; sourceTree = "<group>"; };
+		CE3465E4158040EA00F5E679 /* NendSDKTestARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NendSDKTestARCViewController.m; sourceTree = "<group>"; };
+		CE3465E7158040EA00F5E679 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NendSDKTestARCViewController.xib; sourceTree = "<group>"; };
+		CE3465F91580544300F5E679 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEA5C857159020FB009836FE /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		CEA5C858159020FB009836FE /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3465CA158040EA00F5E679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE92C6401590709A0091F946 /* libNendAd.a in Frameworks */,
+				CE3465FA1580544300F5E679 /* Security.framework in Frameworks */,
+				CE3465D2158040EA00F5E679 /* UIKit.framework in Frameworks */,
+				CE3465D4158040EA00F5E679 /* Foundation.framework in Frameworks */,
+				CE3465D6158040EA00F5E679 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3465C2158040EA00F5E679 = {
+			isa = PBXGroup;
+			children = (
+				3E72A561160ADF1A00FE5220 /* Default-568h@2x.png */,
+				CEA5C856159020FB009836FE /* NendAd */,
+				CE3465D7158040EA00F5E679 /* NendSDKTestARC */,
+				CE3465D0158040EA00F5E679 /* Frameworks */,
+				CE3465CE158040EA00F5E679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3465CE158040EA00F5E679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3465CD158040EA00F5E679 /* NendSDKTestARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3465D0158040EA00F5E679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3465F91580544300F5E679 /* Security.framework */,
+				CE3465D1158040EA00F5E679 /* UIKit.framework */,
+				CE3465D3158040EA00F5E679 /* Foundation.framework */,
+				CE3465D5158040EA00F5E679 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3465D7158040EA00F5E679 /* NendSDKTestARC */ = {
+			isa = PBXGroup;
+			children = (
+				CE3465E0158040EA00F5E679 /* NendSDKTestARCAppDelegate.h */,
+				CE3465E1158040EA00F5E679 /* NendSDKTestARCAppDelegate.m */,
+				CE3465E3158040EA00F5E679 /* NendSDKTestARCViewController.h */,
+				CE3465E4158040EA00F5E679 /* NendSDKTestARCViewController.m */,
+				CE3465E6158040EA00F5E679 /* NendSDKTestARCViewController.xib */,
+				CE3465D8158040EA00F5E679 /* Supporting Files */,
+			);
+			path = NendSDKTestARC;
+			sourceTree = "<group>";
+		};
+		CE3465D8158040EA00F5E679 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3465D9158040EA00F5E679 /* NendSDKTestARC-Info.plist */,
+				CE3465DA158040EA00F5E679 /* InfoPlist.strings */,
+				CE3465DD158040EA00F5E679 /* main.m */,
+				CE3465DF158040EA00F5E679 /* NendSDKTestARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA5C856159020FB009836FE /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C857159020FB009836FE /* libNendAd.a */,
+				CEA5C858159020FB009836FE /* NADView.h */,
+			);
+			name = NendAd;
+			path = ../../NendAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3465CC158040EA00F5E679 /* NendSDKTestARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3465EB158040EA00F5E679 /* Build configuration list for PBXNativeTarget "NendSDKTestARC" */;
+			buildPhases = (
+				CE3465C9158040EA00F5E679 /* Sources */,
+				CE3465CA158040EA00F5E679 /* Frameworks */,
+				CE3465CB158040EA00F5E679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NendSDKTestARC;
+			productName = NendSDKTestARC;
+			productReference = CE3465CD158040EA00F5E679 /* NendSDKTestARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3465C4158040EA00F5E679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NendSDKTestARC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE3465C7158040EA00F5E679 /* Build configuration list for PBXProject "NendSDKTestARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3465C2158040EA00F5E679;
+			productRefGroup = CE3465CE158040EA00F5E679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3465CC158040EA00F5E679 /* NendSDKTestARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3465CB158040EA00F5E679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3465DC158040EA00F5E679 /* InfoPlist.strings in Resources */,
+				CE3465E8158040EA00F5E679 /* NendSDKTestARCViewController.xib in Resources */,
+				3E72A562160ADF1A00FE5220 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3465C9158040EA00F5E679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3465DE158040EA00F5E679 /* main.m in Sources */,
+				CE3465E2158040EA00F5E679 /* NendSDKTestARCAppDelegate.m in Sources */,
+				CE3465E5158040EA00F5E679 /* NendSDKTestARCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3465DA158040EA00F5E679 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3465DB158040EA00F5E679 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE3465E6158040EA00F5E679 /* NendSDKTestARCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3465E7158040EA00F5E679 /* en */,
+			);
+			name = NendSDKTestARCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3465E9158040EA00F5E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3465EA158040EA00F5E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3465EC158040EA00F5E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendSDKTestARC/NendSDKTestARC-Prefix.pch";
+				INFOPLIST_FILE = "NendSDKTestARC/NendSDKTestARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../NendAd\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3465ED158040EA00F5E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NendSDKTestARC/NendSDKTestARC-Prefix.pch";
+				INFOPLIST_FILE = "NendSDKTestARC/NendSDKTestARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../NendAd\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3465C7158040EA00F5E679 /* Build configuration list for PBXProject "NendSDKTestARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3465E9158040EA00F5E679 /* Debug */,
+				CE3465EA158040EA00F5E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3465EB158040EA00F5E679 /* Build configuration list for PBXNativeTarget "NendSDKTestARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3465EC158040EA00F5E679 /* Debug */,
+				CE3465ED158040EA00F5E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3465C4158040EA00F5E679 /* Project object */;
+}
